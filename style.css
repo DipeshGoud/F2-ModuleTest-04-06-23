@@ -1,0 +1,134 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: #7C9070;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-container{
+    color: #FEE8B0;
+    background-color: #F97B22;
+    padding: 10px;
+    min-width: 600px;
+    display: flex;
+    height: calc(100vh - 53px);
+    overflow-x: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-list{
+    height: 100%;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+
+.menu-container::-webkit-scrollbar {
+    display: none;
+  }
+
+.menu-container li{
+    width: auto;
+    padding: 0 5px;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #FEE8B0;
+    color: #F97B22;
+}
+
+
+.menu-container img{
+    max-width: 300px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.order-container{
+    background-color: #F97B22;
+    color: #FEE8B0;
+}
+
+.status-container{
+    background-color: whitesmoke;
+}
+
+h2 {
+    text-align: center;
+    background-color: #FEE8B0;
+    color: #F97B22;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.left-container{
+    width: 400px;
+    height: 100%;
+    border-right: 2px solid #FEE8B0;
+}
+
+.order-container{
+    width: 100%;
+    height: 60vh;
+    overflow-x: hidden;
+}
+
+.order-container::-webkit-scrollbar {
+    display: none;
+  }
+
+.status-container{
+    width: 100%;
+    height: 31vh;
+}
+
+.left-container img{
+    width: 180px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.left-container li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+p{
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    color: #7C9070;
+}
