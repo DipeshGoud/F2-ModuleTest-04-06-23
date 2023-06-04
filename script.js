@@ -74,6 +74,7 @@ function thankyou() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             const orderStatusEl = document.getElementById('order-status');
+            alert("Thank you for dining with us today!")
             orderStatusEl.textContent = 'Thank you for dining with us today!';
             resolve();
         }, 1000);
